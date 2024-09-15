@@ -1,0 +1,139 @@
+
+
+/* ترتيب البودي */
+body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* السبان */
+span{color: rgb(0, 138, 0);}
+/* خلفية الموقع */
+body{
+    background-image: url(https://64.media.tumblr.com/bfdd04d8e2ecf62099a964503db37c92/tumblr_my8ls4Wnxu1relaado1_500.gif);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+/* ترتيب الأسم */
+.name{
+    font-family: "Nerko One", cursive;
+position: absolute;
+ top: 0;
+ left: 0;
+ text-align: center;
+ width: 100%;
+ height: 50px;
+ background: rgba(250, 250, 250, 0.447);
+ box-shadow: -1px 4px 28px 0px rgb(0,0,0,0.75);
+ z-index: 0;
+ font-size: 35px;
+}
+/* ترتيب التعريف */
+.prgrf{
+    font-family: "Lalezar", system-ui;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 60px;
+    
+    width: 400px;
+    background: rgba(250, 250, 250, 0.447);
+    box-shadow: -1px 4px 28px 0px rgb(0,0,0,0.75);
+    z-index: 0;
+}
+/* بوكس الأختيارات */
+.chose{
+    text-align: center; 
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: rgba(250, 250, 250, 0.434);
+    box-shadow: -1px 4px 28px 0px rgb(0,0,0,0.75);
+    z-index: 0;
+    
+}
+/* خط الكتابه */
+h2{
+    margin: 0;
+    font-family: "Lalezar", system-ui;
+    font-size: 70px;
+    }
+/* خط اختيار المجال */
+a{
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+text-decoration: double;
+}
+/* الأختيار الأول */
+.coder-box{
+    padding: 4px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: darkgreen;
+    width: 300px;
+height: 50px;    
+}
+
+/* انميشن الأختيار الأول */
+.coder:hover{
+    transition: 1s;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font:
+ Georgia,
+    serif;
+}
+ .coder-box:hover{
+    transition: 1s;
+    border: black 2px solid;
+    border-radius: 5px;
+ }
+
+ /* زرالمعلومات */
+#more{
+    background-color: rgba(255, 255, 255, 0);
+border: solid darkgreen;
+border-radius: 10px;
+height: 40px;
+color:darkgreen;
+}
+#more:hover{
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.228);
+}
+ /* بوكس المعلومات */
+#moreInfo{
+    background-color: #ffffff6c;
+    border: 2px solid darkgreen;
+    padding: 20px;
+    margin: 50px auto;
+    width: 40%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+
+
+p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}

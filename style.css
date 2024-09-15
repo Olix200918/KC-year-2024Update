@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+  }
+  /* ترتيب البودي */
+  body {
+    transition:all 1s;
+    background-image: url(https://64.media.tumblr.com/bfdd04d8e2ecf62099a964503db37c92/tumblr_my8ls4Wnxu1relaado1_500.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  /*  ناف بار الترحيب */
+  .navbar {
+    font-family: "Marhey", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 138, 0);
+    font-size: 32px;
+  }
+  /* شريط التنقلات */
+  .navbar-two {
+    font-family: "Nerko One", cursive;
+    font-size: 30px;
+    color: rgb(0, 138, 0);
+    margin-top: 42px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.16);
+    box-shadow: -1px 4px 28px 0px rgb(0, 0, 0, 0.75);
+    z-index: 0;
+  }
+  .navbar-two button {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 138, 0);
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-two button:hover {
+    transition: 0s;
+    text-shadow: 0 0 5px rgb(0, 138, 0);
+  }
+  /* المبرمج */
+  .new {
+    background-color: white;
+    border: rgb(0, 138, 0) solid 10px;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    padding-top: 8px;
+    margin: 3px;
+  }
+  /* حامل المبرمجين */
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+  }
+  /* الأسم */
+  /* والمجال البرمجي */
+  h1 {
+    color: rgb(0, 138, 0);
+    font-family: "Marhey", sans-serif;
+    font-size: x-large;
+  }
+  /* رقم الواتساب */
+  h2 {
+    font-family: "Handjet", sans-serif;
+    margin-top: 10px;
+  }
+  /* المعلومات الأضافيه */
+  p {
+    font-family: monospace;
+    font-size: large;
+  }
+  /* اضافه مبرمج */
+  #addBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 59px;
+    background-color: rgb(0, 138, 0);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  #addBtn:hover {
+    background-color: rgb(0, 106, 0);
+  }
+  /* مربع اضافه مبرمج */
+  #formContainer {
+    border: rgb(0, 0, 0) solid 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px 20px;
+  }
+  .hide-element {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  }
+  .hide-element:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    border: white;
+    color: white;
+  }
+  input {
+    margin-top: 10px;
+    margin-left: px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  input[type="number"] {
+    margin-bottom: 10px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+  /* زر ارسال مبرمج */
+  #submit {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #submit:hover {
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    border: white;
+    color: white;
+  }
+  #result {
+    margin: 0;
+  }
